@@ -109,3 +109,24 @@ figure img {
 figcaption {
     color: #616264;
 }
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-section {
+    background-color: #E5E7EB;
+    padding: 100px 325px;
+}
+
+.testimonial {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+cite {
+    font-style: normal;
+    font-size: 18px;
+    display: block;
+    text-align: right;
+}
