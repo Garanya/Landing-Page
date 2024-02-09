@@ -74,3 +74,38 @@ button {
     background-color: grey;
 }
 
+/* INFORMATION SECTION */
+
+.info-section {
+    text-align: center;
+    padding: 25px 250px 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.img-section {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0;
+    padding: 0; */
+}
+
+figure img {
+    flex: 1;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+figcaption {
+    color: #616264;
+}
