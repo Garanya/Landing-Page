@@ -126,7 +126,35 @@ figcaption {
 
 cite {
     font-style: normal;
-    font-size: 18px;
+    font-size: 24px;
     display: block;
     text-align: right;
+}
+
+/* CALL TO ACTION */
+
+.call-to-action{
+    background-color: #3882F6;
+    margin: 75px 200px;
+    padding: 50px 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h3{
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-to-action p{
+    color: #E5E7EB;
+    margin: 3px 0 0;
+    font-size: 18px;
+}
+
+.call-to-action button{
+    border: 3px solid #F9FAF8;
 }
